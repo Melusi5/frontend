@@ -1,0 +1,35 @@
+.f-container{
+    margin-left: 10rem;
+    height: 40rem;
+    width:  50rem;
+}
+
+.text-center{
+    font-weight: bolder;
+}
+.text-uppercase{
+    font-weight: bolder;
+}
+.text-reset{
+    font-weight: bold;
+}
+
+.furniture{
+    background-color: red;
+    margin-left: 13px;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 1.24) 0px 3px 2px;
+}
+.product{
+    position: absolute;
+   
+    font-size: 2rem;
+    margin-left: -4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35rem;
+    margin-right: 17rem;
+    padding-left: 3rem;
+   
+}
+

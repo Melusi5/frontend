@@ -1,0 +1,42 @@
+.card-container1{
+    position: absolute;
+      display: grid;
+      display: flex;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+      padding: 10px;
+      gap: 33px;
+      margin-top: 5rem;
+      margin-left: -2.9rem;
+      box-shadow: rgba(0, 0, 0, 1.24) 6px 2px 8px;
+}
+  
+.cards{
+    height: 20vh;
+    width: 10rem;
+    margin-top: 4rem;
+}
+.titl{
+    margin-left: 5rem;
+    margin-top: -4.4rem;
+}
+.tex{
+    margin-left: 50px;
+    margin-top: -4rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.view1{
+    position: absolute;
+    left: 46.5rem;
+    width: 9rem;
+    margin-top: -.1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+  
+.view1:hover{
+    background-color: darkgrey;
+}
+
+  
