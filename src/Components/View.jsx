@@ -13,13 +13,13 @@ function View() {
    
   ]
   return (
-    <div className="card-container1" >
+    <div className="card-container" >
       <button
         onClick={() => setToggle(!toggle)} // 3rd add setToggle and toggle from useState at as above
         class="view1">
         Show The View
       </button>
-      <br /><br /><br /><br /><br></br>
+      <br /><br /><br /><br /><br></br><br/>
       
       {
         toggle && ( // 4th add {toggle }
