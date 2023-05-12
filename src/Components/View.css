@@ -24,13 +24,13 @@
     margin-top: -.1rem;
     font-weight: bold;
     border-radius: 1rem;
-}
-  
+}  
+
 .view1:hover{
     background-color: darkgrey;
 }
+
 .addCart {
-    /* position: relative; */
     margin-top: 20rem;
     margin-left: -5rem;
 }
@@ -41,6 +41,10 @@
     font-size: 16px;
 }
 
-.btn-primary {
-   margin-left: -8rem;
-}
+.btn-primary
+
+
+
+
+
+

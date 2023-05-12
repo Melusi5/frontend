@@ -35,15 +35,7 @@ function Footer() {
                                 <p>
                                     Samsung 617L Black Mirror Fridge
                                 </p>
-                                <p>
-                                    Honor x7a 128GB
-                                </p>
-                                <p>
-                                    DStv Explora Decoder Fully Installed
-                                </p>
-                                <p>
-                                    Julio Tub Chair
-                                </p>
+                                        
                             </MDBCol>
 
                             <MDBCol className='auto'>
