@@ -7,10 +7,7 @@ function View() {
     { id: '2', name: 'LG 1250 W Dvd Home Theatre System LHD-687', price: 'R7999,00', image: 'https://www.russells.co.za/media/catalog/product/cache/2bc2f148dc23cafaa22d929dc6e18cfe/a/v/av_hometheater_lhd687_basic_350e.jpg' },
     { id: '3', name: 'Lenovo Intel Core I5 Laptop', price: 'R9999,00', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4RPM4CMn77FurkmS7lZ4zYLBC_Ixmv5YmwElcKtzZ-ukX-YgqZilP1j461RHIa25lc3P08vY2SqOruKUMCqYzROseKCjnD3Lsv2zZcCD0QOKWPH7RZrhg&usqp=CAE' },
     { id: '4', name: 'Samsung 617L S/S Black Mirror Fridge RS64R53', price: 'R26999,00', image: 'https://api-beta-game.walmart.com/medias/media-000000000000826824-1-Default-WF-Default-Product?context=bWFzdGVyfHByb2Nlc3NlZHwxMTM5NXxpbWFnZS9qcGVnfGg4Mi9oMzgvMTAyNzQ4NDA2NDE1NjYvbWVkaWFfMDAwMDAwMDAwMDAwODI2ODI0XzFfRGVmYXVsdC1XRl9EZWZhdWx0LVByb2R1Y3R8NGVmMWZlZDlhMTZiNDRkZTlhOTViYzM4YzE2MTViOTJjZTYzNjBjMGEzZDNhMTYxZjcwMjY0MWY4N2ZhOWE2MA' },
-    { id: '5', name: 'Honor x7a 128GB', price: 'R8000,00', image: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102773003/fee_786_587_png' },
-    { id: '6', name: 'DStv Explora Decoder 3B Fully Installed', price: 'R2499,00', image: 'https://www.everyshop.co.za/media/catalog/product/cache/3aaf7ef652111a7c23335511164c8ac8/3/b/3bdecoderwithsatellite_copy_900c.jpg' },
-    { id: '7', name: 'Julio Tub Chair', price: 'R1790,00', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQnTfFHOsxsy5kb9sCWVYgqJeVNNKmflRHzptsfCYxDV43lE9Alo1m3KcLQdHDa1QoDiQPXNHCYbj0bk3wz6euN6HRx0Jfbjptsyv29dhnkxUAkpjk-eMxqGQ&usqp=CAc'},
-   
+    
   ]
   return (
     <div className="card-container" >
@@ -19,19 +16,24 @@ function View() {
         class="view1">
         Show The View
       </button>
-      <br /><br /><br /><br /><br></br><br/>
-      
+      <br /><br /><br /><br />
       {
         toggle && ( // 4th add {toggle }
           products.map(product => {
-            return <div key={product.id} >
-              <img src={product.image} className="cards" />
-              <div className="bodys">
-                <h5 className="title">{product.name}</h5>
-                <p className="text">{product.price}</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
-              </div>
-            </div>
+            return (
+              <>
+                <div key={product.id} >
+                  <img src={product.image} className="cards" />
+                  <div className="bodys">
+                    <h5 className="title">{product.name}</h5>
+                    <div className="text">{product.price}</div>
+                  </div>
+                </div>
+                <div className='addCart'>
+                  <a href="#" className="btn btn-primary">ADD TO CART</a>
+                </div>
+              </>
+            )
           })
         )}
     </div>

@@ -24,19 +24,19 @@ function Footer() {
                                     SHOP BY
                                 </h6>
                                 <p>
-                                   Samsung 55" UHD 4K Smart TV
+                                    Samsung 55" UHD 4K Smart TV
                                 </p>
                                 <p>
-                                    LG 1250 W Dvd Home Theatre 
+                                    LG 1250 W Dvd Home Theatre
                                 </p>
                                 <p>
-                                    Lenovo Intel Core I5 Laptop 
+                                    Lenovo Intel Core I5 Laptop
                                 </p>
                                 <p>
-                                    Samsung 617L Black Mirror Fridge  
+                                    Samsung 617L Black Mirror Fridge
                                 </p>
                                 <p>
-                                    Honor x7a 128GB 
+                                    Honor x7a 128GB
                                 </p>
                                 <p>
                                     DStv Explora Decoder Fully Installed
@@ -45,8 +45,8 @@ function Footer() {
                                     Julio Tub Chair
                                 </p>
                             </MDBCol>
-                            
-                              <MDBCol className='auto'>
+
+                            <MDBCol className='auto'>
                                 <h6 className='text-uppercase fw-bold'>STORE LOCAATOR</h6>
                                 <p>
                                     <a href='#!' className='text-reset'>
@@ -65,12 +65,12 @@ function Footer() {
                                 </p>
                                 <p>
                                     <a href='#!' className='text-reset'>
-                                        Eastern Cape 
+                                        Eastern Cape
                                     </a>
                                 </p>
                                 <p>
                                     <a href='#!' className='text-reset'>
-                                        Mpumalanga 
+                                        Mpumalanga
                                     </a>
                                 </p>
                                 <p>
