@@ -5,6 +5,7 @@ import Slide from '../Components/Slide'
 import View from '../Components/View'
 import Footer from '../Components/Footer'
 
+
 const Home = () => {
   return (
   
