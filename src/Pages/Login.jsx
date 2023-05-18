@@ -1,6 +1,5 @@
-import React from 'react';
-import '../Login.css'
-
+import React from 'react'
+import '../Pages/Login.css'
 import {
   MDBBtn,
   MDBContainer,
@@ -9,7 +8,8 @@ import {
   MDBCard,
   MDBCardBody,
   MDBInput,
-  MDBIcon
+  MDBIcon,
+  MDBCheckbox
 }
 from 'mdb-react-ui-kit';
 
@@ -20,38 +20,33 @@ function Login() {
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
         <MDBCol col='12'>
 
-          <MDBCard className='bg-dark text-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '400px'}}>
-            <MDBCardBody className='p-5 d-flex flex-column align-items-center mx-auto w-100'>
+          <MDBCard className='bg-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '500px'}}>
+            <MDBCardBody className='p-5 w-100 d-flex flex-column'>
 
-              <h2 className="fw-bold mb-2 text-uppercase">Login</h2>
-              <p className="text-white-50 mb-5">Please enter your login and password!</p>
+              <h2 className="fw-bold mb-2 text-center">Sign in</h2>
+              <p className="text-white-50 mb-3">Please enter your login and password!</p>
 
-              <MDBInput wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' label='Email address' id='formControlLg' type='email' size="lg"/>
-              <MDBInput wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' label='Password' id='formControlLg' type='password' size="lg"/>
+              <MDBInput wrapperClass='mb-4 w-100' label='Email address' id='formControlLg' type='email' size="lg"/>
+              <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' type='password' size="lg"/>
 
-              <p className="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
-              <MDBBtn outline className='mx-2 px-5' color='white' size='lg'>
+              <MDBCheckbox name='flexCheck' id='flexCheckDefault' className='mb-4' label='Remember password' />
+
+              <MDBBtn size='lg'>
                 Login
               </MDBBtn>
 
-              <div className='d-flex flex-row mt-3 mb-5'>
-                <MDBBtn tag='a' color='none' className='m-3' style={{ color: 'white' }}>
-                  <MDBIcon fab icon='facebook-f' size="lg"/>
-                </MDBBtn>
+              <hr className="my-4" />
 
-                <MDBBtn tag='a' color='none' className='m-3' style={{ color: 'white' }}>
-                  <MDBIcon fab icon='twitter' size="lg"/>
-                </MDBBtn>
+              <MDBBtn className="mb-2 w-100" size="lg" style={{backgroundColor: '#dd4b39'}}>
+                <MDBIcon fab icon="google" className="mx-2"/>
+                Sign in with google
+              </MDBBtn>
 
-                <MDBBtn tag='a' color='none' className='m-3' style={{ color: 'white' }}>
-                  <MDBIcon fab icon='google' size="lg"/>
-                </MDBBtn>
-              </div>
+              <MDBBtn className="mb-4 w-100" size="lg" style={{backgroundColor: '#3b5998'}}>
+                <MDBIcon fab icon="facebook-f" className="mx-2"/>
+                Sign in with facebook
+              </MDBBtn>
 
-              <div>
-                <p className="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a></p>
-
-              </div>
             </MDBCardBody>
           </MDBCard>
 
@@ -63,5 +58,6 @@ function Login() {
 }
 
 export default Login;
+
 
     
