@@ -5,7 +5,7 @@ function Register() {
   return (
     <div>
       <Header />
-      <Card />
+    
       Register</div>
   )
 }

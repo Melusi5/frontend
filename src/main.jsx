@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import AboutUs from './Pages/AboutUs'
+import Login from './Pages/Login'
 
 import {
   createBrowserRouter,
@@ -22,6 +23,13 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutUs/>,
+
+  
+  },
+  {
+    path: "/login",
+    element: <Login/>,
+    
   },
 ])
 

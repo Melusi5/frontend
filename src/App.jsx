@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import Slide from './Components/Slide'
+import Card from './Components/Card'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Slide/>
       <Contact/>
       <Home/>
+      <Card/>
     </div>
   )
 }
