@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import Slide from './Components/Slide'
 import Card from './Components/Card'
+import Login from './Pages/Login'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Contact/>
       <Home/>
       <Card/>
+      <Login/>
     </div>
   )
 }
